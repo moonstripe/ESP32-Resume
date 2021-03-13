@@ -6,13 +6,13 @@
 
 An ESP-32 Resume creates a WiFi access point to host your accomplishments wherever you can supply power to the ESP-32.
 
-## Background
+## Video Tutorial
 
-> Creating a good README.md takes forever, especially if you are starting off from scratch. So, I decided to make a few templates to help me speed up things a little bit. The readme-template.md file is a template containing a group of sections that you might want to include on your readme file.
+> There's nothing better than a good video tutorial to get you through a quick beginner's project like this one. Conveniently, there's one for [this project](https://github.com/Yilber/readme-boilerplate/issues), too!
 
 ## Installation
 
-### PlatformIO/Visual Studio Code
+### PlatformIO/Visual Studio Code IDE
 
 Open your terminal and type in
 
@@ -29,6 +29,9 @@ $ code .
 
 Otherwise, simply open the folder in Virtual Studio Code.
 
+### Arduino IDE
+
+Open the .ino file in ```/src``` in the Arduino IDE.
 
 
 
@@ -36,40 +39,41 @@ Otherwise, simply open the folder in Virtual Studio Code.
 ## Scaffolding
 
 ```text
-readme-boilerplate
+ESP32-Resume
+├── include
+├── lib
+├── test
 ├── src
-│   └── templates
-│       ├── header-advanced.md
-│       ├── header-simple.md
-│       └── readme-template.md
+│   └── main.cpp // for PlatformIO
+│   └── ESP32-Resume.ino // for Arduino
+│   └── resume.html // helpful scratch html file
+├── platformio.ini
 ├── LICENSE
-└── README.md
+├── README.md
+└── platformio.ini // for PlatformIO [Note: Baud rate is set to 115200]
 ```
 
 ## How to use
 
-* Create a README.md file.
-* Pick a header from the templates folder and copy its content onto the README.md file.
-* Update the URLs and add/remove any necessary badge.
-* Copy and paste the content from the readme-template.md onto the README.md file.
-* Add/remove necessary sections and update all URLs.
+  1. Connect to the access point "My Resume" and log in with the password "hireMePls"
+  2. Hit 'em with the old elevator pitch
 
 ## Bugs
 
-If you have questions, feature requests or a bug you want to report, please click [here](https://github.com/Yilber/readme-boilerplate/issues) to file an issue.
+If you have questions, feature requests or a bug you want to report, please click [here](https://github.com/moonstripe/ESP32-Resume/issues) to file an issue.
 
 ## Author
 
-* [**Yilber Mejia**](https://www.yilbermejia.com/) [![GitHub followers](https://img.shields.io/github/followers/yilber.svg?style=social)](https://github.com/yilber) [![Twitter Follow](https://img.shields.io/twitter/follow/Yilber_M.svg?style=social)](https://twitter.com/Yilber_M)
+* [**Moonstripe**](https://www.moonstripe.heroku.com/) [![GitHub followers](https://img.shields.io/github/followers/moonstripe.svg?style=social)](https://github.com/yilber) [![Twitter Follow](https://img.shields.io/twitter/follow/moonstripe_____.svg?style=social)](https://twitter.com/Yilber_M)
 
 ## Support
 
 Like what you see? Keep me awake at night by buying me a coffee or two.
 
-<a href="https://www.buymeacoffee.com/yilber" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;"></a>
-<a href="https://www.patreon.com/bePatron?u=17267732" target="_blank"><img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" height="37" alt="Become a patreon" style="height: auto !important;width: auto !important;"></a>
+<a href="https://www.buymeacoffee.com/moonstripe" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;"></a>
+
 ## License
 
-Copyright (c) 2019 Yilber Mejia.
+Copyright (c) 2021 Moonstripe.
 
-Usage is provided under the MIT License. See [LICENSE](https://github.com/Yilber/readme-boilerplate/blob/master/LICENSE) for the full details.
+Usage is provided under the MIT License. See [LICENSE](https://github.com/moonstripe/ESP32-Resume/blob/main/LICENSE) for the full details.
