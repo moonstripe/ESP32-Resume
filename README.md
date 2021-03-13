@@ -8,7 +8,7 @@ An ESP-32 Resume creates a WiFi access point to host your accomplishments wherev
 
 ## Video Tutorial
 
-> There's nothing better than a good video tutorial to get you through a quick beginner's project like this one. Conveniently, there's one for [this project](https://github.com/Yilber/readme-boilerplate/issues), too!
+> There's nothing better than a good video tutorial to get you through a quick beginner's project like this one. Conveniently, there's one for [this project](https://youtube.com/u/moonstripe), too!
 
 ## Installation
 
@@ -64,7 +64,7 @@ If you have questions, feature requests or a bug you want to report, please clic
 
 ## Author
 
-* [**Moonstripe**](https://www.moonstripe.heroku.com/) [![GitHub followers](https://img.shields.io/github/followers/moonstripe.svg?style=social)](https://github.com/yilber) [![Twitter Follow](https://img.shields.io/twitter/follow/moonstripe_____.svg?style=social)](https://twitter.com/Yilber_M)
+* [**Moonstripe**](https://www.moonstripe.heroku.com/) [![GitHub followers](https://img.shields.io/github/followers/moonstripe.svg?style=social)](https://github.com/moonstripe) [![Twitter Follow](https://img.shields.io/twitter/follow/moonstripe_____.svg?style=social)](https://twitter.com/moonstripe_____)
 
 ## Support
 
