@@ -46,6 +46,7 @@ void loop() {
       if (client.available()) {             // if there's bytes to read from the client,
         char c = client.read();             // read a byte, then
         Serial.write(c);                    // print it out the serial monitor
+        digitalWrite(LED_BUILTIN, HIGH);
         if (c == '\n') {                    // if the byte is a newline character
 
           // if the current line is blank, you got two newline characters in a row.
@@ -143,6 +144,7 @@ void loop() {
     }
     // close the connection:
     client.stop();
+    digitalWrite(LED_BUILTIN, LOW);
     Serial.println("Client Disconnected.");
   }
 }
